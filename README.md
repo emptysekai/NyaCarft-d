@@ -1,0 +1,3 @@
+# NyaCraft - datapack
+
+Nya? Nya!
