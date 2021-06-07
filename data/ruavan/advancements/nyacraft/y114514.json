@@ -14,7 +14,9 @@
             "conditions": {
                 "location": {
                     "position": {
-                        "y": 114514
+                        "y": {
+                            "min": 114514
+                        }
                     }
                 }
             }
