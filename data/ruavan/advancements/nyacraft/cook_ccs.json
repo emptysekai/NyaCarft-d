@@ -1,0 +1,24 @@
+{
+    "parent": "ruavan:nyacraft/fire_sword",
+    "display": {
+        "icon": {
+            "item": "minecraft:cooked_cod"
+        },
+        "frame": "goal",
+        "title": "请你吃烤CCS",
+        "description": "脆鲨烤烤是怪话密码！"
+    },
+    "criteria": {
+        "kill_dolphin_on_fire": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:dolphin",
+                    "flags": {
+                        "is_on_fire": true
+                    }
+                }
+            }
+        }
+    }
+}

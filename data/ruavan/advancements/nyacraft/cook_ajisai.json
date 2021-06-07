@@ -1,0 +1,24 @@
+{
+    "parent": "ruavan:nyacraft/fire_sword",
+    "display": {
+        "icon": {
+            "item": "minecraft:cooked_chicken"
+        },
+        "frame": "goal",
+        "title": "烤叽",
+        "description": "烤叽好耶！"
+    },
+    "criteria": {
+        "kill_chicken_on_fire": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:chicken",
+                    "flags": {
+                        "is_on_fire": true
+                    }
+                }
+            }
+        }
+    }
+}

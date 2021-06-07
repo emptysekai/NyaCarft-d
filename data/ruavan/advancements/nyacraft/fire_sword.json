@@ -1,0 +1,25 @@
+{
+    "parent": "ruavan:nyacraft/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_sword",
+            "nbt": "{Enchantments: [{lvl: 2s, id: \"minecraft:fire_aspect\"}]}"
+        },
+        "title": "淬火刀妈",
+        "description": "火刀，可以烤鲨烤狐烤..."
+    },
+    "criteria": {
+        "has_fire_enchant": {
+            "trigger": "minecraft:enchanted_item",
+            "conditions": {
+                "item": {
+                    "enchantments": [
+                        {
+                            "enchantment": "minecraft:fire_aspect"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

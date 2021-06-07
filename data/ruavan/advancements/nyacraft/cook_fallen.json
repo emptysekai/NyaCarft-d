@@ -1,19 +1,19 @@
 {
-    "parent": "ruavan:nyacraft/root",
+    "parent": "ruavan:nyacraft/fire_sword",
     "display": {
         "icon": {
-            "item": "minecraft:cooked_chicken"
+            "item": "minecraft:rabbit_hide"
         },
         "frame": "goal",
-        "title": "烤叽",
-        "description": "烤叽好耶！"
+        "title": "狐狸坏透了",
+        "description": "狐狸坏 透了\n狐狸透坏了"
     },
     "criteria": {
-        "kill_chicken_on_fire": {
+        "kill_fox_on_fire": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:chicken",
+                    "type": "minecraft:fox",
                     "flags": {
                         "is_on_fire": true
                     }
