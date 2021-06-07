@@ -1,0 +1,22 @@
+{
+    "parent": "ruavan:nyacraft/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:composter"
+        },
+        "title": "粪桶挑战",
+        "description": "搞红石的第一步：合成粪桶"
+    },
+    "criteria": {
+        "has_composter": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:composter"
+                    }
+                ]
+            }
+        }
+    }
+}
