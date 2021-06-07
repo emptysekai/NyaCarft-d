@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "rcr",
+        "cbc",
+        "rcr"
+    ],
+    "key": {
+        "b": {
+            "item": "minecraft:beacon"
+        },
+        "c": {
+            "item": "minecraft:end_crystal"
+        },
+        "r": {
+            "item": "minecraft:wither_rose"
+        }
+    },
+    "result": {
+        "item": "minecraft:netherite_scrap",
+        "count": 1
+    }
+}
