@@ -1,0 +1,23 @@
+{
+    "parent": "ruavan:nyacraft/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:firework_rocket"
+        },
+        "frame": "challenge",
+        "title": "沼气动力火箭",
+        "description": "向着y114514的目标发起冲击！"
+    },
+    "criteria": {
+        "reach_y114514": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "position": {
+                        "y": 114514
+                    }
+                }
+            }
+        }
+    }
+}
