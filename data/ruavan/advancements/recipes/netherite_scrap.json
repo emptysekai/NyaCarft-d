@@ -1,0 +1,20 @@
+{
+    "parent": "ruavan:recipes/root",
+    "criteria": {
+        "has_beacon": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:beacon"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "ruavan:netherite_scrap"
+        ]
+    }
+}

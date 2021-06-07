@@ -1,0 +1,20 @@
+{
+    "parent": "ruavan:recipes/root",
+    "criteria": {
+        "has_golden_apple": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:golden_apple"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "ruavan:enchanted_golden_apple"
+        ]
+    }
+}
