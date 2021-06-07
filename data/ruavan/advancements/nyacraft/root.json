@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cauldron"
+        },
+        "title": "Van_Nya's Cauldron",
+        "description": "欢嘤来到Van喵的大锅",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/quartz_block_bottom.png"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
