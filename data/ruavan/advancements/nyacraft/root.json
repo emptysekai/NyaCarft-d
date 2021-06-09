@@ -3,17 +3,22 @@
         "icon": {
             "item": "minecraft:cauldron"
         },
+        "frame": "task",
         "title": "Van_Nya's Cauldron",
         "description": "欢嘤来到Van喵的大锅",
-        "frame": "task",
-        "show_toast": false,
-        "announce_to_chat": false,
-        "hidden": false,
         "background": "minecraft:textures/block/white_terracotta.png"
     },
     "criteria": {
-        "tick": {
-            "trigger": "minecraft:tick"
+        "jump_into_cauldron": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "block": {
+                        "block": "minecraft:cauldron"
+                    },
+                    "smokey": true
+                }
+            }
         }
     }
 }
